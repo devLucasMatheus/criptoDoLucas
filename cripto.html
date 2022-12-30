@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Cripto do Lucas</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="logica.js"> </script>
+    </head>
+    
+    <body class="corpo">
+            
+            <h1><img src="Frame6.png" class="logoAlura" alt="logotipo Alura"></h1>
+            
+                <textarea class="entradausuario" name="" id="entradaUsuario" cols="30" rows="10" 
+                placeholder="Digite seu texto aqui..."></textarea>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/devlucasmatheus/">
+                            <img src="linkedin.png" class="icone" alt="Link de acesso ao linkedin ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/devLucasMatheus">
+                            <img src="github.png" class="icone" alt="Link de acesso ao github">
+                        </a>
+                    </li>
+                </ul>
+            
+        <div class="alerta">
+            <img src="exclamation.png">
+            <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+
+        <div class="posicaoBotao">
+            <button id="cripto" onclick="criptografar()">Criptografar</button>
+            <button id="descripto" onclick="descriptografar()">Descriptografar</button>
+            <button class="botaoCopiar" id="copiar" onclick="copiar()">Copiar</button>
+        </div> 
+
+        <div>
+            <textarea placeholder="Nenhuma mensagem encontrada..." class="saidaUsuario" 
+            name="saidaUsuario" id="saidaUsuario" cols="30" rows="10" readonly></textarea>
+        </div>
+            
+    </body>
+
+</html>        
